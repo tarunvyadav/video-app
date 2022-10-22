@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+}
+
+.pic{
+    position:absolute;
+    height:10%;
+    width: 10%;
+    border-radius: 50%;
+    position:bottom;
+    z-index: 1;
+    top:85%;
+    left:5%
+}
+
+.single{
+    position:relative;
+    margin:20px;
+    border-radius: 20px;
+    position: relative;
+    background-color:gray;
+    width: 100%;
+    height: 70%;
+    scroll-snap-align: start;
+    
+}
+
+
+.post{
+    object-fit: fill;
+    width: 80%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.sidebar{
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 20%;
+    width: 8%;
+    right: 10%;
+    z-index: 1;
+    top:70%;
+    
+    
+}
+
+.ThumbDownAltOutlinedIcon{
+    margin:10%
+}
+
+.ChatIcon{
+    margin: 10%
+}
+
+h4{ 
+    font-weight: 500;
+    left:5%;
+    top:1%;
+    position:absolute;
+    color:white;
+    z-index: 1;
+}
+
+p{
+    font-weight: 50;
+    left: 5%;
+    top: 5%;
+    position: absolute;
+    color: white;
+    z-index: 1;
+}
+
+.short{
+    position: absolute;
+    top:5%;
+    height: 10%;
+    width: 10%;
+    right:25%;
+    border-radius: 10%;
+
+}
+
+.likes{
+    margin: 15%;
+    line-height: 0%;
+}
+
+.caption{
+    top:82.5%;
+    left:20%;
+    display: block;
+    width:60%;
+    color:#FF4500;
+    font-weight: 500;
+  
+ 
+
+}
+
+
+
+.likeIcon{
+    color: green
+}
+
+.dislikeIcon{
+    color:red;
+
+}
+
+
+
+input{
+    z-index: 2;
+    position: absolute;
+    top:50%;
+    right:24%;
+    background-color: black;
+    /* justify-content: center;
+    align-items: center; */
+    height:15%;
+    width:70%;
+    color:white;
+
+}
+
+.comment-but{
+        z-index: 2;
+        position: absolute;
+        top: 67%;
+        right: 40%;
+        background-color: black;
+        /* justify-content: center;
+        align-items: center; */
+        border-radius: 10px;
+        color: white;
+        background-color: goldenrod;
+}
+
+.comment-but:hover{
+    background-color:beige;
+    color:gray
+}
+
+.activebox{
+    display: none;
+}
+
+.tag {
+    position: absolute;
+    right: 60%;
+    top:5%;
+    background-color: aliceblue;
+    border-radius:10px;
+    border: 1x solid blue;
+}
